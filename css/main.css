@@ -150,64 +150,65 @@ footer span {
 
 
 @media all and (min-width:768px) {
+
     /* Tablet styles here */
-	.bottom-section .content-wrapper {
-		justify-content: space-evenly;
-	}
-	.bottom-section {
-	border-top: 5px solid #eee;
-	border-bottom: 5px solid #eee;	
-	flex-wrap: nowrap
-	}
-	.section-one
-    .section-two
-    .section-three {
-width: ;
-}
+    .bottom-section .content-wrapper {
+        justify-content: space-evenly;
+    }
+
+    .bottom-section {
+        border-top: 5px solid #eee;
+        border-bottom: 5px solid #eee;
+        flex-wrap: nowrap
+    }
+
     .section-two {
-	border-left: 5px solid #eee;
-	border-right: 5px solid #eee;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
+        border-left: 5px solid #eee;
+        border-right: 5px solid #eee;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
- 
+
 @media all and (min-width:1200px) {
+
     /* Desktop styles here */
-	body {
-		font-size: 1em;
-	} 
+    body {
+        font-size: 1em;
+    }
 
 
-	header {
-    flex-wrap: nowrap;
-	 justify-content: center;
-  align-items: center;
-  padding: 10px;
-	}
+    header {
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
 
-	header nav {
-	display: flex;
-	width: 21%;
-	}
+    header nav {
+        display: flex;
+        width: 21%;
+    }
 
-	header nav ul {
-	display: flex;
-	justify-content: space-between;
-	}
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
 
-	header h1 {
-		width: 70%;
-		padding: 0px;
-		border-bottom: none;
-		text-align: start;
-		display: flex;
-		flex: auto;
-	  }
-	.section-one .section-two .section-three {
-		width: fit-content;
-	}
-	footer {
-		padding-bottom: 50px;
-	}
+    header h1 {
+        width: 70%;
+        padding: 0px;
+        border-bottom: none;
+        text-align: start;
+        display: flex;
+        flex: auto;
+    }
+
+    .section-one .section-two .section-three {
+        width: fit-content;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
 }
